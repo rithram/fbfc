@@ -1,6 +1,6 @@
 # Flyhash Bloom Filter Classifier
 
-Code for the Fly Bloom Filter Classifier and the scripts for running the experiments presented in the paper
+Code for the Fly Bloom Filter Classifier (FBFC) and the scripts for running the experiments presented in the paper
 
 
 ## Setting up environment
@@ -50,5 +50,10 @@ $ source fbfc/bin/activate
 
 Please use the following citation for the paper:
 ```
-TODO
+@inproceedings{sinha2021fruitfly,
+  title={Fruit-fly Inspired Neighborbood Encoding for Classification},
+  author={Sinha, Kaushik and Ram, Parikshit},
+  booktitle={To appear in the Proceedings of the 27th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  year={2021}
+}
 ```
