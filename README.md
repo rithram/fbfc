@@ -28,9 +28,8 @@ $ source fbfc/bin/activate
 
 ### Flyhash
 
-The Flyhash operation ![img](http://www.sciweavers.org/tex2img.php?eq=h%3A%20%5Cmathbb%7BR%7D%5Ed%20%5Cto%20%5C%7B0%2C%201%5C%7D%5Em&bc=White&fc=Black&im=jpg&fs=12&ff=pxfonts) is defined as:
+The Flyhash operation is defined as:
 
-![img](http://www.sciweavers.org/tex2img.php?eq=h%28x%29%20%3D%20%5CGamma_%5Crho%28M_m%5Es%20x%29%2C%20%5C%20M_m%5Es%20%5Cin%20%5C%7B0%2C%201%5C%7D%5E%7Bm%20%5Ctimes%20d%7D&bc=White&fc=Black&im=jpg&fs=12&ff=pxfonts)
 
 ### Binary FBFC learning
 
