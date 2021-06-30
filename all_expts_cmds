@@ -1,0 +1,17 @@
+python test/eval_hpdep_kfold_small_data.py -t <NTHREADS> -F 10 -e 4 -E 2048 -s 0.1 -S 0.3 -w 8 -W 32 -c 0.5 -C 1.0 -H ef -n 10
+python test/eval_hpdep_kfold_small_data.py -t <NTHREADS> -F 10 -e 256 -E 1024 -s 0.1 -S 0.8 -w 8 -W 32 -c 0.5 -C 1.0 -H cs -n 10
+python test/eval_hpdep_kfold_small_data.py -t <NTHREADS> -F 10 -e 256 -E 1024 -s 0.1 -S 0.3 -w 4 -W 256 -c 0.5 -C 1.0 -H wn -n 10
+python test/eval_hpdep_kfold_small_data.py -t <NTHREADS> -F 10 -e 256 -E 1024 -s 0.1 -S 0.3 -w 8 -W 32 -c 0.2 -C 0.9 -H c -n 10
+python test/eval_synthetic_binary_data.py -t <NTHREADS> -F 10 -c 60 -r 15 -f 2048.0 -s 0.5 -w 256 -S <NSAMPLES> -d <NDIMS> -L 5 -C 3 -W <NNZ_PER_ROW> -R 30
+python test/eval_synthetic_data.py -t <NTHREADS> -F 10 -c 60 -r 15 -f 2048.0 -s 0.5 -w 256 -S <NSAMPLES> -d <NDIMS> -L 5 -C 3 -R 30
+python test/eval_label_noise_synthetic.py -t <NTHTREADS> -f 1024 -s 0.05 -w 256 -S <NSAMPLES> -N <NTEST> -d <NDIMS> -L 5 -C 3 -R 10
+python test/knn_baseline.py -t <NTHREADS> -F 10 -n <MIN_DATA_DIM> -x <MAX_DATA_DIM> -S <MAX_DATA_SAMPLES>
+python test/cc_baseline.py -t <NTHREADS> -F 10 -n <MIN_DATA_DIM> -x <MAX_DATA_DIM> -S <MAX_DATA_SAMPLES> -M CC1
+python test/cc_baseline.py -t <NTHREADS> -F 10 -n <MIN_DATA_DIM> -x <MAX_DATA_DIM> -S <MAX_DATA_SAMPLES> -M CC
+python test/sbf_baseline.py -t <NTHREADS> -F 10 -n <MIN_DATA_DIM> -x <MAX_DATA_DIM> -S <MAX_DATA_SAMPLES> -E 2048.0
+python test/lr_baseline.py -t <NTHREADS> -F 10 -n <MIN_DATA_DIM> -x <MAX_DATA_DIM> -S <MAX_DATA_SAMPLES> -C 20
+python test/mlpc_baseline.py -t <NTHREADS> -F 10 -n <MIN_DATA_DIM> -x <MAX_DATA_DIM> -S <MAX_DATA_SAMPLES> -A 5  -B 4
+python test/fbfc_hpo.py -t <NTHREADS> -F 10 -c 60 -r 15 -f 2048.0 -s 0.5 -w 256 -n <MIN_DATA_DIM> -x <MAX_DATA_DIM> -S <MAX_DATA_SAMPLES>
+python test/fbfc_hpo.py -t <NTHREADS> -F 10 -c 60 -r 15 -f 2048.0 -s 0.5 -w 256 -n <MIN_DATA_DIM> -x <MAX_DATA_DIM> -S <MAX_DATA_SAMPLES> -N True
+python test/fbfc_label_sim.py -t <NTHREADS> -f 217 -s 0.026 -w 26 -c 0.49 -B <MAX_BATCH_SIZE> -R 30 -d mnist
+python test/fbfc_label_sim.py -t <NTHREADS> -f 1512 -s 0.5 -w 256 -c 0.9 -B <MAX_BATCH_SIZE> -R 30 -d letter
