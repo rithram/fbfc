@@ -26,15 +26,14 @@ $ source fbfc/bin/activate
 
 ## Algorithm
 
+### Flyhash
+
+The Flyhash operation is defined as:
+
+![img](http://www.sciweavers.org/tex2img.php?eq=h%3A%20%5Cmathbb%7BR%7D%5Ed%20%5Cto%20%5C%7B0%2C%201%5C%7D%5Em%2C%20h%28x%29%20%3D%20%5CGamma_%5Crho%28M_m%5Es%20x%29&bc=White&fc=Black&im=png&fs=18&ff=ccfonts,eulervm&edit=0)
 
 ### Binary FBFC learning
 
-
-- Inputs:
-  - Training data `S` of `n` pairs `(x, y)` of features `x` with label `y`
-  - FBFC hyper-parameters `m`, `s`, `rho`
-- Initialization:
-  - For each class `l \in L`
 
 
 ### Non-binary FBFC learning
