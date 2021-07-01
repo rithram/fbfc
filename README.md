@@ -57,7 +57,7 @@ For a test point ![xr](https://render.githubusercontent.com/render/math?math=x%2
 
 ## Experiments
 
-The experiments for the paper are detailed in [expt.md](expt.md)
+The experiments for the paper are detailed in [expts.md](expts.md).
 
 ## Citation
 
