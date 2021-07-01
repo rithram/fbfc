@@ -50,7 +50,14 @@ where ![cin](https://render.githubusercontent.com/render/math?math=c%20%5Cin%20(
 
 ### FBFC inference
 
+For a test point ![xr](https://render.githubusercontent.com/render/math?math=x%20%5Cin%20%5Cmathbb%7BR%7D%5Ed), the predicted label ![yL](https://render.githubusercontent.com/render/math?math=%5Chat%7By%7D%20%5Cin%20%5BL%5D) is done as follows:
 
+![ymin](https://render.githubusercontent.com/render/math?math=%5Chat%7By%7D%20%5Cgets%20%5Carg%20%5Cmin_%7Bl%20%5Cin%20%5BL%5D%7D%20w_l%5E%5Ctop%20h(x)).
+
+
+## Experiments
+
+The experiments for the paper are detailed in [expt.md](expt.md)
 
 ## Citation
 
