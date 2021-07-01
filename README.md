@@ -28,8 +28,11 @@ $ source fbfc/bin/activate
 
 ### Flyhash
 
-The Flyhash operation is defined as:
+The Flyhash operation ![h](https://render.githubusercontent.com/render/math?math=h%3A%20%5Cmathbb%7BR%7D%5Ed%20%5Cto%20%5C%7B%200%2C%201%20%5C%7D%5Em) for any ![xinR](https://render.githubusercontent.com/render/math?math=x%20%5Cin%20%5Cmathbb%7BR%7D%5Ed) is defined as:
 
+![image](https://render.githubusercontent.com/render/math?math=h(x)%20%3D%20%5CGamma_%5Crho(M_m%5Es%20x))
+
+where ![mproj](https://render.githubusercontent.com/render/math?math=M_m%5Es%20%5Cin%20%5C%7B0%2C%201%5C%7D%5E%7Bm%20%5Ctimes%20d%7D) is the _sparse_ binary projection matrix with ![sd](https://render.githubusercontent.com/render/math?math=s%20%5Cll%20d) nonzero entries in each row of the matrix, and ![wta](https://render.githubusercontent.com/render/math?math=%5CGamma_%7B%5Crho%7D%3A%20%5Cmathbb%7BR%7D%5Em%20%5Cto%20%5C%7B0%2C%201%5C%7D%5Em) is the _winner-take-all_ operation that sets the top-![rho](https://render.githubusercontent.com/render/math?math=%5Crho%20%5Cll%20m) entries in a vector to 1 and the rest of the entries in the vector to 0.
 
 ### Binary FBFC learning
 
