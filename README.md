@@ -1,6 +1,6 @@
 # Flyhash Bloom Filter Classifier
 
-Code for the Fly Bloom Filter Classifier (FBFC) and the scripts for running the experiments presented in the paper
+Code for the Fly Bloom Filter Classifier (FBFC) and the scripts for running the experiments presented in the paper **_Fruit-fly Inspired Neighborbood Encoding for Classification_** at SIGKDD conference on KDD, 2021.
 
 
 ## Setting up environment
