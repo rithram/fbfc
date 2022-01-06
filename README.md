@@ -70,10 +70,15 @@ The experiments for the paper are detailed in [expts.md](expts.md).
 
 Please use the following citation for the paper:
 ```
-@inproceedings{sinha2021fruitfly,
-  title={Fruit-fly Inspired Neighborbood Encoding for Classification},
+Sinha, Kaushik, and Parikshit Ram. "Fruit-fly Inspired Neighborhood Encoding for Classification." Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2021.
+```
+or
+```
+@inproceedings{sinha2021fruit,
+  title={Fruit-fly Inspired Neighborhood Encoding for Classification},
   author={Sinha, Kaushik and Ram, Parikshit},
-  booktitle={To appear in the Proceedings of the 27th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  booktitle={Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery \& Data Mining},
+  pages={1470--1480},
   year={2021}
 }
 ```
